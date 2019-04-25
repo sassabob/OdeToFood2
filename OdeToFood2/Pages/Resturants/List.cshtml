@@ -2,6 +2,7 @@
 @using OdeToFood2.Pages.Resturants
 @model OdeToFood2.Pages.Resturants.ListModel
 @{
+    ViewData["Title"] = "Restaurants";
 }
 
 <h1>Restuarants</h1>
@@ -26,5 +27,6 @@
 }
 
 <a asp-page="./Edit" class="btn btn-primary">Add New</a>
+
 
 @Model.Message

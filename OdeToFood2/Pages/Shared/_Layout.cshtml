@@ -45,7 +45,9 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2019 - OdeToFood2</p>
+            <vc:restaurant-count></vc:restaurant-count>
+            @RenderSection("footer", required: false)
+            <p>&copy; 2019 - OdeToFood</p>
         </footer>
     </div>
 
